@@ -10,7 +10,7 @@ filetype off                  " required
     Plug 'junegunn/fzf'
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
-    Plug 'altercation/vim-colors-solarized'
+    Plug 'lifepillar/vim-solarized8'
     Plug 'brookhong/cscope.vim'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
@@ -140,7 +140,10 @@ set splitbelow
 set splitright
 
 " Color {{{
-colorscheme solarized
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+set termguicolors
+colorscheme solarized8
 "if strftime("%H") < 17 && strftime("%H") > 7
 "    set background=light
 "else
