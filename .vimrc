@@ -358,5 +358,6 @@ set updatetime=100
    nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
    hi link CocFloating Pmenu
+   set tagfunc=CocTagFunc
 " }}}
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
