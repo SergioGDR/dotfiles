@@ -17,6 +17,7 @@ filetype off                  " required
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'editorconfig/editorconfig-vim'
 
     call plug#end()
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -38,6 +39,7 @@ autocmd BufReadPost *
 
 let g:loaded_matchparen=1
 
+set cino+=(0
 
 " Tabs {{{
 " Only do this part when compiled with support for autocommands.
