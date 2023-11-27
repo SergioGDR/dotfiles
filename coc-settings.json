@@ -1,0 +1,27 @@
+{
+    "diagnostic.floatConfig": {
+        "border": true
+    },
+    "floatFactory.floatConfig": {
+        "border": true
+    },
+    "hover.floatConfig": {
+        "border": true
+    },
+    "signature.floatConfig": {
+        "border": true
+    },
+    "suggest.floatConfig": {
+        "border": true
+    },
+    "suggest.labelMaxLength": 100,
+    "suggest.enableFloat": false,
+    "suggest.removeDuplicateItems": true,
+    "inlayHint.enable": false,
+    "inlayHint.enableParameter": false,
+
+    "clangd.arguments": ["--header-insertion=never"],
+    //"semanticTokens.enable": true,
+    "clangd.disableSnippetCompletion": true,
+    "clangd.disableProgressNotifications": true
+}
